@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include("../config/database.php");
+    //include("../config/database.php");
 
     $sql = "SELECT bookings.*, users.name AS user_name, packages.name AS package_name
         FROM bookings
@@ -21,7 +21,7 @@
     </head>
     <body>
         <?php
-            include("../includes/navbar.php");
+            //include("../includes/navbar.php");
         ?>
         <div class="container mt-5">
             <h2 class="mb-4">All Bookings</h2>
@@ -67,7 +67,7 @@
             </table>
         </div>
         <?php
-            include("../includes/footer.php");
+            //include("../includes/footer.php");
         ?>
     </body>
 </html>
