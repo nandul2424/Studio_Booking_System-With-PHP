@@ -2,6 +2,7 @@
 
     require("../config/config.php");
 
+    //sets up the connection to the mysql server, and to that users table in the demo database. 
 
     class App{
 
