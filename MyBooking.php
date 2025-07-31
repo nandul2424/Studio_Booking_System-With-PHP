@@ -15,12 +15,12 @@
 </head>
 <body class="bg-mybookings min-h-screen min-w text-white overflow-hidden">
 
-  <!-- 🔷 Navigation Bar -->
+  <!--  Navigation Bar -->
   <nav class="bg-white/90 shadow-md backdrop-blur-sm sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <a href="index.php" class="text-xl font-bold text-blue-600">Studio Booking</a>
       <ul class="flex space-x-6 text-sm font-medium">
-        <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600">Home</a></li>
         <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Book</a></li>
         <li><a href="mybookings.php" class="text-gray-700 hover:text-blue-600">My Bookings</a></li>
         <li><a href="#" class="text-gray-700 hover:text-blue-600">Register</a></li>
@@ -29,7 +29,7 @@
     </div>
   </nav>
 
-  <!-- 🔷 My Bookings Section -->
+  <!--  My Bookings Section -->
   <section class="bg-black/60 py-12 px-4 min-h-screen">
     <div class="max-w-5xl mx-auto text-white">
       <h2 class="text-3xl font-bold mb-6">My Bookings</h2>

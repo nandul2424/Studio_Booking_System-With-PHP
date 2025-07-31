@@ -30,12 +30,12 @@
 </head>
 <body class="bg-booking min-h-screen">
 
-  <!-- ✅ NAVIGATION BAR -->
+  <!-- NAVIGATION BAR -->
   <nav class="bg-white/90 shadow-md backdrop-blur-sm sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <a href="#" class="text-xl font-bold text-blue-600">Studio Booking</a>
       <ul class="flex space-x-4 text-sm font-medium">
-        <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600">Home</a></li>
         <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Book</a></li>
         <li><a href="mybookings.php" class="text-gray-700 hover:text-blue-600">My Bookings</a></li>
         <li><a href="#" class="text-gray-700 hover:text-blue-600">Register</a></li>
@@ -44,10 +44,10 @@
     </div>
   </nav>
 
-  <!-- 💠 Booking Form Overlay -->
+  <!-- Booking Form Overlay -->
   <div class="bg-black/60 min-h-[calc(100vh-64px)] w-full flex items-center justify-center px-4">
 
-    <!-- 💠 Booking Form Card -->
+    <!-- Booking Form Card -->
     <div class="max-w-md w-full bg-white/20 backdrop-blur-lg p-8 rounded-2xl shadow-2xl text-white fade-in-up mt-4">
 
       <h2 class="text-3xl font-bold text-center text-white mb-6">Book a Package</h2>
