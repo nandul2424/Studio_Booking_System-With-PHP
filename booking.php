@@ -35,10 +35,11 @@
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <a href="#" class="text-xl font-bold text-blue-600">Studio Booking</a>
       <ul class="flex space-x-4 text-sm font-medium">
-        <li><a href="#" class="text-gray-700 hover:text-blue-500">Book</a></li>
-        <li><a href="#" class="text-gray-700 hover:text-blue-500">My Bookings</a></li>
-        <li><a href="#" class="text-gray-700 hover:text-blue-500">Login</a></li>
-        <li><a href="#" class="text-gray-700 hover:text-blue-500">Register</a></li>
+        <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a href="book.php" class="text-gray-700 hover:text-blue-600">Book</a></li>
+        <li><a href="mybookings.php" class="text-gray-700 hover:text-blue-600">My Bookings</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600">Register</a></li>
+         <li><a href="#" class="text-gray-700 hover:text-blue-600">Logout</a></li>
       </ul>
     </div>
   </nav>
