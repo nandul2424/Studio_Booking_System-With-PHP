@@ -3,29 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Studio Booking System</title>
+  <title>Studio Booking System - Home</title>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Studio Booking</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="photo-studio.html">Photo Studio</a></li>
+      <li><a href="podcast-room.html">Podcast Room</a></li>
+      <li><a href="music-studio.html">Music Studio</a></li>
+      <li><a href="video-studio.html">Video Studio</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
   <div class="container">
-    <h1>Get exclusive offers</h1>
-    <p class="subtitle">When you book online</p>
+    <h1>Welcome to Our Studio Booking System</h1>
+    <p class="subtitle">Get exclusive offers when you book online</p>
 
+    <div class="cards">
 
-
-    <div class="card">
+      <!-- Studio Type 1 -->
+      <div class="card">
         <h2>Photo Studio</h2>
         <img src="studio1.png" alt="Studio 1" />
         <ul>
-        <li>Lighting Included</li>
-        <li>Backdrops Available</li>
-        <li>Editing Desk</li>
+          <li>Lighting Included</li>
+          <li>Backdrops Available</li>
+          <li>Editing Desk</li>
         </ul>
         <p class="price">Rs. 3,500</p>
         <a href="photo-studio.html" class="btn">More Details</a>
-    </div>
-    
+        <a href="book-photo.html" class="btn book-btn">Book Now</a>
+      </div>
 
       <!-- Studio Type 2 -->
       <div class="card">
@@ -37,6 +51,8 @@
           <li>Live Stream Ready</li>
         </ul>
         <p class="price"><del>Rs. 4,500</del> Rs. 3,990</p>
+        <a href="podcast-room.html" class="btn">More Details</a>
+        <a href="book-podcast.html" class="btn book-btn">Book Now</a>
       </div>
 
       <!-- Studio Type 3 -->
@@ -49,6 +65,8 @@
           <li>Mixing Console</li>
         </ul>
         <p class="price">Rs. 5,500</p>
+        <a href="music-studio.html" class="btn">More Details</a>
+        <a href="book-music.html" class="btn book-btn">Book Now</a>
       </div>
 
       <!-- Studio Type 4 -->
@@ -61,6 +79,8 @@
           <li>Lighting Rig</li>
         </ul>
         <p class="price">Rs. 6,200</p>
+        <a href="video-studio.html" class="btn">More Details</a>
+        <a href="book-video.html" class="btn book-btn">Book Now</a>
       </div>
 
     </div>
