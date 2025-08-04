@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #d23d8a;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+  
+  .subtitle {
+    color: #555;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .card h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #e04880;
+  }
+  
+  .card ul {
+    list-style: none;
+    margin-bottom: 1em;
+  }
+  
+  .card ul li {
+    font-size: 0.95em;
+    margin-bottom: 0.3em;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #222;
+  }
+  
+  .price del {
+    color: #999;
+    margin-right: 0.5em;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #d23d8a;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #b22c6f;
+  }
+  
