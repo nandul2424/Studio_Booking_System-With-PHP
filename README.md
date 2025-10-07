@@ -45,3 +45,7 @@ Studio Booking System is a PHP-based web application designed to help users brow
    Open your terminal and run:
    ```bash
   https://github.com/nandul2424/Studio_Booking_System-With-PHP.git
+
+  OR
+  If any error pop up or files do not open after clonning , please use the drive link below to access the project files ...
+     https://drive.google.com/drive/folders/1t5prPVIwkDfmKOY1wGWlrOM87U366Slx?usp=drive_link
